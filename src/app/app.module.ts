@@ -6,7 +6,7 @@ import {ClassroomComponent} from "./classroom/classroom.component";
 import {StudentComponent} from "./student/student.component";
 import {LoginComponent} from "./bai tap/login.component";
 import {RegisterComponent} from "./bai tap/register.component";
-import {WeatherComponent} from "./bai tap/weather.component";
+import {WeatherComponent} from "./bai tap/bai tap weather/weather.component";
 import {RouterModule, Routes} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 
