@@ -1,6 +1,13 @@
-<div>
-  <a routerLink="/login">Login</a>
-  <a routerLink="/register">Register</a>
-  <a routerLink="/weather">weather</a>
-  <router-outlet></router-outlet>
-</div>
+<ul class="dropdown-menu show">
+  <li><a class="dropdown-item" href="#">Favourites</a></li>
+  <li><a class="dropdown-item" href="#">Inbox</a></li>
+  <li><a class="dropdown-item" routerLink="register">Sent Items</a></li>
+  <li><a class="dropdown-item" href="#">John</a></li>
+  <li><a class="dropdown-item" href="#">Inbox</a></li>
+  <li><a class="dropdown-item" href="#">Drafts</a></li>
+  <li><a class="dropdown-item" href="#">Deleted Items</a></li>
+  <li><a class="dropdown-item" href="#">Sent Items</a></li>
+  <li><a class="dropdown-item" href="#">OutBox</a></li>
+</ul>
+<router-outlet></router-outlet>
+
